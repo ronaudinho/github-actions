@@ -52,9 +52,9 @@ jobs:
       # Warning! Be careful about changing the steps here as it might cause some security problems
       # (see the Attention block on the top of this file).
       - name: Setup Go
-        uses: FerretDB/github-actions/setup-go@main
+        uses: ronaudinho/github-actions/setup-go@main
         with:
           cache-key: conform-pr
 
       - name: Conform PR
-        uses: FerretDB/github-actions/conform-pr@main
+        uses: ronaudinho/github-actions/conform-pr@main
