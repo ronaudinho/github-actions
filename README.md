@@ -1,3 +1,5 @@
+# test-check-size
+
 # github-actions
 
 This repository contains our shared GitHub Actions, written in Go,
